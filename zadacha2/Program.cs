@@ -4,15 +4,15 @@ Console.WriteLine("Введите второе число b");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
-    Console.WriteLine("a ="+ a + "; b ="+ b +" -> max = " +a);
+    Console.WriteLine("a = "+ a + "; b ="+ b +" -> max = " +a);
 }
-if (a < b)
+else if (b > a)
 {
-    Console.WriteLine("a ="+ a + "; b = "+ b +" -> max = " +b);
+    Console.WriteLine("a = "+ a + "; b = "+ b +" -> max = " +b);
 }
 else
 {
-    Console.WriteLine("a ="+ a + "; b = "+ b +" числа равны");
+    Console.WriteLine("a = "+ a + "; b = "+ b +" числа равны");
 }
 
 //Console.WriteLine("Введите положительное 3х значное число");
